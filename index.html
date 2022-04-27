@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js"
+      integrity="sha512-5qbIAL4qJ/FSsWfIq5Pd0qbqoZpk5NcUVeAAREV2Li4EKzyJDEGlADHhHOSSCw0tHP7z3Q4hNHJXa81P92borQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sheba.xyz your one stop solution</title>
+  </head>
+  <body>
+    <section class="MainConteiner">
+      <!-- --------------------------
+            header section start 
+        -------------------------------->
+      <header>
+        <a href="#" class="logo"
+          ><img src="./img/sheba.svg" alt="sheba.xyz"
+        /></a>
+        <!-- navigator -->
+        <button onclick="tognav()" id="navt">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <nav>
+          <ul id="nav">
+            <li><a href="#">Download App</a></li>
+            <li><a href="#">All services</a></li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- --------------------------
+            header section end 
+        -------------------------------->
+      <!-- ======================== 
+            hero section start
+        =========================== -->
+      <section class="hero">
+        <div class="titel">
+          <h1>Your Personal Assistant</h1>
+          <p>
+            One-stop solution for your services. Order any service, anytime.
+          </p>
+          <form action="#" class="locaion-serv-search">
+            <div class="button-location">
+              <button id="locaten-btn">
+                <i class="fa-solid fa-location-arrow"></i
+                ><span>location dhaka</span>
+              </button>
+              <button id="set-location-btn">
+                <i class="fa-solid fa-location-crosshairs"></i>
+              </button>
+            </div>
+            <div class="search-ser">
+              <input
+                type="text"
+                name="serveses"
+                id="search"
+                placeholder="search your serveses"
+              />
+              <button id="submit-serch" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- ======================== 
+            hero section end
+        =========================== -->
+      <!------------------------------
+           catagory start 
+        ---------------------- -->
+      <section class="catagory">
+        <div class="abso-cat">
+          <div class="catagoris">
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/home.png" alt="" />
+              <h1>Home</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/spa.png" alt="" />
+              <h1>Beauty</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/restaurant.png" alt="" />
+              <h1>Food</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/repair-tools.png" alt="" />
+              <h1>plumber</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/analyzer.png" alt="" />
+              <h1>electrician</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/door-hanger.png" alt="" />
+              <h1>security</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/taxi.png" alt="" />
+              <h1>Car</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/first-aid-kit.png" alt="" />
+              <h1>Helth</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/coding.png" alt="" />
+              <h1>Digital</h1>
+            </a>
+            <!-- catagori -->
+            <a href="#" class="cata">
+              <img src="./img/icon/judge.png" alt="" />
+              <h1>legal advisor</h1>
+            </a>
+            <!-- catagori -->
+          </div>
+        </div>
+      </section>
+      <!------------------------------
+           catagory end 
+        ---------------------- -->
+      <!-- sevises start  -->
+      <section class="servises">
+        <!-- red -->
+        <!-- row for -->
+        <!-- row dummy -->
+        <div class="row">
+          <!-- blue -->
+          <div class="titel-name">
+            <!-- cyan -->
+            <h1>For Your Home</h1>
+          </div>
+          <button onclick="gofor(this)" class="forword">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <button onclick="goback(this)" class="backword">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <div class="h-row">
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/plumbingsanitaryservices_270x180.webp" alt="" />
+              <h1>Plumbing &amp; Sanitary Services</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/paintingservices_270x180.webp" alt="" />
+              <h1>Painting Services</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/pestcontrolservice_270x180.webp" alt="" />
+              <h1>Pest Control Service</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/plumbingsanitaryservices_270x180.webp" alt="" />
+              <h1>Plumbing &amp; Sanitary Services</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/plumbingsanitaryservices_270x180.webp" alt="" />
+              <h1>Plumbing &amp; Sanitary Services</h1>
+            </a>
+            <!-- serve  -->
+          </div>
+        </div>
+        <!-- row for -->
+        <!-- row for -->
+        <!-- row dummy -->
+        <div class="row">
+          <!-- blue -->
+          <div class="titel-name">
+            <!-- cyan -->
+            <h1>Recommended</h1>
+          </div>
+          <button onclick="gofor(this)" class="forword">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <button onclick="goback(this)" class="backword">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <div class="h-row">
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img
+                src="./img/electriciansforelectricalservice_270x180.webp"
+                alt=""
+              />
+              <h1>electricians-electrical</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/acservicing_270x180.webp" alt="" />
+              <h1>AC Servicing</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/plumbingsanitaryservices_270x180.webp" alt="" />
+              <h1>Plumbing &amp; Sanitary Services</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/plumbingsanitaryservices_270x180.webp" alt="" />
+              <h1>Plumbing &amp; Sanitary Services</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/plumbingsanitaryservices_270x180.webp" alt="" />
+              <h1>Plumbing &amp; Sanitary Services</h1>
+            </a>
+            <!-- serve  -->
+          </div>
+        </div>
+        <!-- row for -->
+        <!-- row for -->
+        <!-- row dummy -->
+        <div class="row">
+          <!-- blue -->
+          <div class="titel-name">
+            <!-- cyan -->
+            <h1>Trending</h1>
+          </div>
+          <button onclick="gofor(this)" class="forword">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <button onclick="goback(this)" class="backword">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <div class="h-row">
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/personalbeautycare_270x180.webp" alt="" />
+              <h1>Personal Beauty Care</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/homecleaning_270x180.webp" alt="" />
+              <h1>Home Cleaning</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/plumbingsanitaryservices_270x180.webp" alt="" />
+              <h1>Plumbing &amp; Sanitary Services</h1>
+            </a>
+            <!-- serve  -->
+          </div>
+        </div>
+        <!-- row for -->
+        <!-- row for -->
+        <!-- row dummy -->
+        <div class="row">
+          <!-- blue -->
+          <div class="titel-name">
+            <!-- cyan -->
+            <h1>Recently View</h1>
+          </div>
+          <button onclick="gofor(this)" class="forword">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <button onclick="goback(this)" class="backword">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <div class="h-row">
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img
+                src="./img/electriciansforelectricalservice_270x180.webp"
+                alt=""
+              />
+              <h1>Electricians for Electrical Service</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/paintingservices_270x180.webp" alt="" />
+              <h1>Painting Services</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/houseshiftingservices_270x180.webp" alt="" />
+              <h1>House Shifting Services</h1>
+            </a>
+            <!-- serve  -->
+            <a href="#" class="sevises-row">
+              <img src="./img/plumbingsanitaryservices_270x180.webp" alt="" />
+              <h1>Plumbing &amp; Sanitary Services</h1>
+            </a>
+            <!-- serve  -->
+          </div>
+        </div>
+        <!-- row for -->
+      </section>
+      <!-- sevises end  -->
+      <!-- about start -->
+      <section class="about">
+        <div class="about-tt">
+          <h2>WHY CHOOSE US</h2>
+          <h1>Because we care about your safety....</h1>
+        </div>
+        <div class="sefty">
+          <div class="grid-for">
+            <div class="case">
+              <div class="img">
+                <img src="./img/icon/usp_mask.png" alt="" />
+              </div>
+              <div class="text">
+                <h1>Ensuring Masks</h1>
+              </div>
+            </div>
+            <div class="case">
+              <div class="img">
+                <img src="./img/icon/usp_24_7.png" alt="" />
+              </div>
+              <div class="text">
+                <h1>24/7 Support</h1>
+              </div>
+            </div>
+            <div class="case">
+              <div class="img">
+                <img src="./img/icon/usp_sanitized.png" alt="" />
+              </div>
+              <div class="text">
+                <h1>Sanitising Hands & Equipment</h1>
+              </div>
+            </div>
+            <div class="case">
+              <div class="img">
+                <img src="./img/icon/usp_gloves.png" alt="" />
+              </div>
+              <div class="text">
+                <h1>Ensuring Gloves</h1>
+              </div>
+            </div>
+          </div>
+          <div class="image-sefty">
+            <img src="./img/why-choose-us.webp" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- about end -->
+      <!-- emi start -->
+      <section class="emi">
+        <div class="img">
+          <img src="./img/undraw_online_payments_re_y8f2.svg" alt="" />
+        </div>
+        <div class="emitext">
+          <h1>EMI available</h1>
+          <h2>Buy now, pay later in installments</h2>
+          <p>for any service greater than BDT 5,000</p>
+          <a href="#">more information</a>
+        </div>
+      </section>
+      <!-- emi end -->
+      <!-- app start  -->
+      <section class="download-app">
+        <div class="img-app">
+          <img src="./img/app-download.webp" alt="" />
+        </div>
+        <div class="text-app">
+          <div class="about-tt">
+            <h2>DOWNLOAD OUR APP</h2>
+            <h1>Any Service, Any Time, Anywhere.</h1>
+          </div>
+          <div class="detail-app">
+            <p>Know about our App</p>
+            <button>more</button>
+          </div>
+          <div class="download-but">
+            <a href="#"><img src="./img/icon/app-store.png" alt="" /></a>
+            <a href="#"><img src="./img/icon/play-store.png" alt="" /></a>
+          </div>
+        </div>
+      </section>
+      <!-- app end -->
+      <!-- contact start  -->
+      <section class="contact">
+        <div class="number-text">
+          <h1>Can’t find your desired service? Let us know 24/7 in 16516.</h1>
+          <div class="contact-btns">
+            <button id="req-service">Request a service</button>
+            <button id="call">
+              <i class="fa-solid fa-phone"></i><span>1234</span>
+            </button>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./img/icon/service-request.png" alt="" />
+        </div>
+      </section>
+      <!-- contact end -->
+      <!-- footer start  -->
+      <footer>
+        <div class="conta">
+          <h1 id="te">CONTACT</h1>
+          <ol>
+            <li>16516</li>
+            <li>semple@sheba.xyz</li>
+            <li><h1>Corporate Address</h1></li>
+            <li>House # 57, Road # 25, Block - A, Banani, Dhaka 1212</li>
+          </ol>
+        </div>
+        <div class="page">
+          <h1 id="te">OTHER PAGES</h1>
+          <ol>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ol>
+        </div>
+        <div class="company">
+          <h1 id="te">COMPANY</h1>
+          <ol>
+            <li><a href="#">sManager</a></li>
+            <li><a href="#">sBusiness</a></li>
+            <li><a href="#">sDelivery</a></li>
+            <li><a href="#">sBondhu</a></li>
+          </ol>
+        </div>
+        <div class="app">
+          <h1 id="te">DOWNLOAD OUR APP</h1>
+          <p>
+            Tackle your to-do list wherever you are with our mobile app & make
+            your life easy.
+          </p>
+          <div class="btn">
+            <a href="#"><img src="./img/icon/app-store.png" alt="" /></a>
+            <a href="#"><img src="./img/icon/play-store.png" alt="" /></a>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </section>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
